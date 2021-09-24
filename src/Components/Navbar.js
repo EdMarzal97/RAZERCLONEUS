@@ -22,16 +22,16 @@ const Navbar = () => {
             <Link className="nav-link" to ="/pc"> PC </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" href="/">Console</Link>
+            <Link className="nav-link" href="/console">Console</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" href="/">Mobile</Link>
+            <Link className="nav-link" href="/mobile">Mobile</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" href="/">Lifestyle</Link>
+            <Link className="nav-link" href="/lifestyle">Lifestyle</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" href="/">Services</Link>
+            <Link className="nav-link" href="/services">Services</Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" href="/">Community</Link>
