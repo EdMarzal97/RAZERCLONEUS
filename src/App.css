@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
 :root{
-    --primary-color: rgba(0, 0, 0, 0.836);
+    --primary-color: rgba(0, 0, 0, 0.76);
     --primary-color-two: rgb(20, 224, 20);
 }
 
@@ -7,6 +9,7 @@
     padding: 0;
     margin: 0;
     background-color:var(--primary-color);
+    font-family: 'PT Sans', sans-serif;
 }
 
 

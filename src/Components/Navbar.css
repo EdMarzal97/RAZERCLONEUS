@@ -1,5 +1,34 @@
 :root{
-    --primary-color: rgb(0, 0, 0);
-    --primary-color-two: rgb(19, 255, 19);
+    --navbar-bg: rgb(0, 0, 0);
+    --navbar-text: rgb(184, 184, 184);
 }
 
+.navbar, .container{
+    max-height: 70px;
+}
+
+#logo{
+    height: 50px;
+    
+}
+
+#title{
+    color: var(--navbar-text);
+}
+
+.nav-link{
+    color: var(--navbar-text);
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+#navmenu{
+    color: white;
+}
+
+a{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
