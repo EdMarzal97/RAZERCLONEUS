@@ -1,4 +1,5 @@
 import "./Navbar.css";
+import {Link} from "react-router-dom";
 
 //<a href="https://icons8.com/icon/65230/razer">Razer icon by Icons8</a> no olvidarse
 // <img
@@ -18,25 +19,25 @@ const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarToggler">
         <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
           <li className="nav-item">
-            <a className="nav-link" href="/">PC</a>
+            <Link className="nav-link" to ="/pc"> PC </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/">Console</a>
+            <Link className="nav-link" href="/">Console</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/">Mobile</a>
+            <Link className="nav-link" href="/">Mobile</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/">Lifestyle</a>
+            <Link className="nav-link" href="/">Lifestyle</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/">Services</a>
+            <Link className="nav-link" href="/">Services</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/">Community</a>
+            <Link className="nav-link" href="/">Community</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/">Support</a>
+            <Link className="nav-link" href="/">Support</Link>
           </li>
         </ul>
       </div>
