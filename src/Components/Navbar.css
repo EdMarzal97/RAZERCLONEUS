@@ -4,11 +4,14 @@
 }
 
 .navbar, .container{
-    max-height: 70px;
+    height: 70px;
 }
 
 #borderbot{
-    border: 5px greenyellow;
+    background-color: var(--navbar-bg);
+    height: 70px;
+    position: -webkit-sticky;
+    position: sticky;
 }
 
 #logo{

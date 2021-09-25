@@ -8,6 +8,7 @@ import Console from './pages/console.js';
 import Mobile from './pages/mobile.js';
 import LifeStyle from './pages/lifestyle.js';
 import Services from './pages/services.js';
+import Footer from './Components/Footer.js';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Services />
         </Route>
       </Switch>
+      <Footer />
     </div>
   );
 }

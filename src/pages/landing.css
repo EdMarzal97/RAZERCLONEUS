@@ -1,0 +1,24 @@
+
+#xboxone{
+    background-image: url('https://source.unsplash.com/P5rqHKDk-dk/1900x1600');
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.BOX{
+    padding: 2rem;
+}
+
+#xboxtwo{
+    background-image: url('https://source.unsplash.com/nI5gwvh1peY/1900x1600');
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
