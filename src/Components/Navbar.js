@@ -10,7 +10,7 @@ import {Link} from "react-router-dom";
 const Navbar = () => {
   return (
     <div id="borderbot">
-      <nav className="navbar navbar-expand-lg" id="navigation">
+      <nav className="navbar navbar-expand-lg fixed-top border-bottom border-success" id="navigation">
         <div className="container">
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"> <i className="ri-menu-line" id="navmenu"></i> </span>

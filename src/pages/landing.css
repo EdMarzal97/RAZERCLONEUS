@@ -1,9 +1,13 @@
 
+#landingone{
+    background-color: rgb(59, 59, 59);
+}
+
 #xboxone{
-    background-image: url('https://source.unsplash.com/P5rqHKDk-dk/1900x1600');
+    background-image: url('https://source.unsplash.com/P5rqHKDk-dk');
     height: 800px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     color: white;
     text-align: center;
     margin-bottom: 10px;
@@ -14,11 +18,95 @@
 }
 
 #xboxtwo{
-    background-image: url('https://source.unsplash.com/nI5gwvh1peY/1900x1600');
+    background-image: url('https://source.unsplash.com/nI5gwvh1peY');
     height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
     text-align: center;
     margin-bottom: 10px;
+}
+
+#xboxthree{
+    background-image: url('https://source.unsplash.com/HIbAmybJHVs');
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.smallest{
+    display: flex;
+    justify-content: space-around;
+    height: 818px;
+    width: 100%;
+}
+
+@media (max-width: 1080px) {
+    .smallest{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: max-content;
+    }
+    #xboxfour{
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+    #xboxfive{
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+    #xboxsix{
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+    #xboxseven{
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+}
+
+#xboxfour{
+    background-image: url('https://source.unsplash.com/u4jbjJ0a4G4');
+    height: 800px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+    text-align: center;
+    margin-right: 1rem;
+}
+
+#xboxfive{
+    background-image: url('https://source.unsplash.com/13aw-Pwdeqk');
+    height: 800px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+    text-align: center;
+}
+
+#xboxsix{
+    background-image: url('https://source.unsplash.com/Ei5d39YRrgY');
+    height: 800px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+    text-align: center;
+    margin-right: 1rem;
+}
+
+#xboxseven{
+    background-image: url('https://source.unsplash.com/bQuTdjCQfE0');
+    height: 800px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+    text-align: center;
 }

@@ -8,10 +8,11 @@
 }
 
 #borderbot{
-    background-color: var(--navbar-bg);
     height: 70px;
-    position: -webkit-sticky;
-    position: sticky;
+}
+
+#navigation{
+    background-color: var(--navbar-bg);
 }
 
 #logo{
