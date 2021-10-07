@@ -49,30 +49,25 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: max-content;
     }
     #xboxfour{
         margin-bottom: 1rem;
-        width: 100%;
     }
     #xboxfive{
         margin-bottom: 1rem;
-        width: 100%;
     }
     #xboxsix{
         margin-bottom: 1rem;
-        width: 100%;
     }
     #xboxseven{
         margin-bottom: 1rem;
-        width: 100%;
     }
 }
 
 #xboxfour{
     background-image: url('https://source.unsplash.com/u4jbjJ0a4G4');
     height: 800px;
-    width: 50%;
+    width: 100%;
     background-repeat: no-repeat;
     background-size:cover;
     color: white;
@@ -83,7 +78,7 @@
 #xboxfive{
     background-image: url('https://source.unsplash.com/13aw-Pwdeqk');
     height: 800px;
-    width: 50%;
+    width: 100%;
     background-repeat: no-repeat;
     background-size:cover;
     color: white;
@@ -93,7 +88,7 @@
 #xboxsix{
     background-image: url('https://source.unsplash.com/Ei5d39YRrgY');
     height: 800px;
-    width: 50%;
+    width: 100%;
     background-repeat: no-repeat;
     background-size:cover;
     color: white;
@@ -104,7 +99,7 @@
 #xboxseven{
     background-image: url('https://source.unsplash.com/bQuTdjCQfE0');
     height: 800px;
-    width: 50%;
+    width: 100%;
     background-repeat: no-repeat;
     background-size:cover;
     color: white;
