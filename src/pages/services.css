@@ -1,0 +1,14 @@
+.header{
+    background-color: rgb(27, 27, 27);
+    color: rgb(129, 129, 129);
+    text-align: center;
+    padding: 3rem;
+}
+
+.header h1{
+    color: green;
+}
+
+.header h4{
+    padding: .75rem;
+}
